@@ -1,0 +1,41 @@
+.App {
+    #AppBar {
+        margin-bottom: 56px;
+    }
+    #AppContent {
+        #wrapHomePage {
+            #fullpage {
+                .section {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 56px;
+                    height: calc(100vh - 56px);
+                    background-image: url("../../assets/img/homepage-1.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    &-content {
+                        // display: flex;
+                        // justify-content: center;
+                        // align-items: center;
+                        &-header {
+                            font-size: 48px;
+                            color: #fff;
+                            text-shadow: -1px 1px 0 #000,
+                                    1px 1px 0 #000,
+                                    1px -1px 0 #000,
+                                    -1px -1px 0 #000;
+                        }
+                        &-action {
+                            margin-top: 12px;
+                            display: flex;
+                            justify-content: start;
+                            gap: 12px;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
