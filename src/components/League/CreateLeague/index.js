@@ -9,7 +9,7 @@ import {
   Modal,
 } from "react-bootstrap";
 
-export default function CreateLeague() {
+export default function CreateTeam() {
   return (
     <Container className="pt-3">
       <Form>
