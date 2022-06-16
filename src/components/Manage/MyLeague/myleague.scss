@@ -1,0 +1,15 @@
+#list-league {
+    padding: 8px;
+    background-color: rgb(197, 197, 197);
+    .league-item {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin: 8px 0;
+        .league-info__img {
+            margin-right: 16px;
+            img {
+                width: 120px;
+            }
+        }
+    }
+}

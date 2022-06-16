@@ -12,7 +12,7 @@ export default function AppContent() {
               <h1 className="section-content-header">
                 Giải pháp đơn giản để tổ chức giải đấu thể thao
               </h1>
-              <div className="section-content-action">
+              {/* <div className="section-content-action">
                 <Button variant="info">
                   <Link to="/league/create-tournament">Tạo giải đấu</Link>
                 </Button>
@@ -22,7 +22,7 @@ export default function AppContent() {
                 <Button variant="info">
                   <Link to="/competitor/create">Tạo đội</Link>
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
